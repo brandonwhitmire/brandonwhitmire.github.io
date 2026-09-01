@@ -1,0 +1,10 @@
+{{ define "main" }}
+  {{ if .Content }}
+    <div class="index-content">
+      {{ .Content }}
+    </div>
+  {{ end }}
+
+  <p id="pages-status" class="status">Loading projects…</p>
+  <div id="pages-list" class="posts" hidden></div>
+{{ end }}
