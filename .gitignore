@@ -1,3 +1,17 @@
 /public/
 /resources/
 .hugo_build.lock
+
+# Generated Hugo output — never commit the theme or build artifacts
+/404.html
+/index.html
+/index.xml
+/sitemap.xml
+/bundle.min.js
+/apple-touch-icon.png
+/favicon.png
+/og-image.png
+/css/
+/fonts/
+/categories/
+/tags/
