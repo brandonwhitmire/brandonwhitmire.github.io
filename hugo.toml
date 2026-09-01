@@ -12,6 +12,10 @@ pagination.pagerSize = 20
   fullWidthTheme = false
   centerTheme = true
 
+  [params.social]
+    email = 'kyle@brandonwhitmire.com'
+    linkedin = 'https://www.linkedin.com/in/b-kyle-whitmire/'
+
 [languages.en]
   label = 'English'
   title = 'brandonwhitmire'

@@ -1,3 +1,24 @@
+.social {
+  display: flex;
+  gap: 16px;
+  margin: 0 0 25px;
+}
+
+.social__link {
+  color: var(--accent);
+  line-height: 0;
+}
+
+.social__link:hover {
+  color: var(--foreground);
+}
+
+.social__icon {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
 .status {
   margin: 0 0 25px;
   color: color-mix(in srgb, var(--foreground) 65%, transparent);
