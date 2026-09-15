@@ -8,7 +8,7 @@ pagination.pagerSize = 20
 [params]
   githubUser = 'brandonwhitmire'
   contentTypeName = 'posts'
-  showMenuItems = 2
+  showMenuItems = 0
   fullWidthTheme = false
   centerTheme = true
 
@@ -26,12 +26,6 @@ pagination.pagerSize = 20
     [languages.en.params.logo]
       logoText = 'brandonwhitmire'
       logoHomeLink = '/'
-
-  [languages.en.menu]
-    [[languages.en.menu.main]]
-      identifier = 'github'
-      name = 'GitHub'
-      url = 'https://github.com/brandonwhitmire'
 
 [module]
   [[module.imports]]
